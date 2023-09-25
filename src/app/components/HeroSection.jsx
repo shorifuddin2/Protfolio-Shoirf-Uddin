@@ -16,7 +16,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-2xl sm:text-2xl lg:text-2xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 text-4xl">
               Hello, I&apos;m{" Shorif Uddin"}
             </span>
             <br></br>
@@ -38,10 +38,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
-          </p>
+          <p className="text-[#ADB7BE] lg:w-[700px] text-base sm:text-lg mb-6 lg:text-xl">I am an enthusiastic JavaScript developer with knowing some framework for the frontend and the backend. I know Basic React-Native but basically a MERN developer.</p>
           <div>
             <Link
               href="/contact"
