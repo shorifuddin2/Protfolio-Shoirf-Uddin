@@ -1,11 +1,11 @@
 {
-  "name": "portfolio-website",
+  "name": "portfolio-shorif-uddin",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "yarn build",
+    "start": "yarn start",
     "lint": "next lint"
   },
   "dependencies": {
