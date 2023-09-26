@@ -21,7 +21,7 @@ const navLinks = [
   },
   {
     title: "Resume",
-    path: "#resume",
+    path: "https://drive.google.com/file/d/10EKMUzL7XgPQS_vIbaSztitGmIeGydVZ/view?usp=sharing",
   },
 ];
 
