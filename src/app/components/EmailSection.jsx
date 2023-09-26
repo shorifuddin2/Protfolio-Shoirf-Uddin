@@ -78,7 +78,7 @@ const EmailSection = () => {
           </div>
           <button
             type="submit"
-            className="bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+            className="bg-gradient-to-br from-primary-500 to-secondary-500 hover:from-primary-800 hover:to-secondary-800 hover:bg-slate-200 text-white font-medium py-2.5 px-5 rounded-lg w-full"
           >
             Send Message
           </button>
