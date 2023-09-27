@@ -8,18 +8,29 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="list-disc">
-        <span className="p-2">HTML5</span>
-        <span className="p-2">Css3</span>
-        <span className="p-2">Bootstap</span>
-        <span className="p-2">Tailwind Css</span>
-        <span className="p-2">Material UI</span>
-        <span className="p-2">JavaScript</span>
-        <span className="p-2">TypeScript</span>
-        <span className="p-2">React.js</span>
-        <span className="p-2">Next.js</span>
-        <span className="p-2">Node.js</span>
-        <span className="p-2">Express</span>
+      <div className="list-disc lg:flex flex-cal-2">
+        <span>
+          <li className="p-2">HTML5</li>
+          <li className="p-2">Css3</li>
+          <li className="p-2">Bootstap</li>
+          <li className="p-2">Tailwind Css</li>
+          
+        </span>
+        <span>
+          <li className="p-2">Material UI</li>
+          <li className="p-2">JavaScript</li>
+          <li className="p-2">TypeScript</li>
+        </span>
+        <span>
+          <li className="p-2">React.js</li>
+          <li className="p-2">Next.js</li>
+          <li className="p-2">Desy UI</li>
+        </span>
+        <span>
+          <li className="p-2">And Design</li>
+          <li className="p-2">Node.js</li>
+          <li className="p-2">Express</li>
+        </span>
       </div>
     ),
   },
@@ -93,7 +104,7 @@ const AboutSection = () => {
               Certifications{" "}
             </TabButton>
           </div>
-          <div className="mt-5 w-100 h-auto">
+          <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
