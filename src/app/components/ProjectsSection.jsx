@@ -10,7 +10,7 @@ const projectsData = [
     title: "Computer Pars",
     description: "React.js, Tailwind Css, Desy UI,Firebase, Node.js, Express.js Mongodb",
     image: "https://i.ibb.co/Rv3CYbn/1.png",
-    tag: ["All", "MEAN Stack"],
+    tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/shorifuddin2/computer-pars-cline/",
     previewUrl: "https://computer-info-parts.web.app/",
   },
@@ -19,7 +19,7 @@ const projectsData = [
     title: "Roktto Bondhu",
     description: "React.js, Tailwind Css, Desy UI,Firebase, Node.js, Express.js Mongodb",
     image: "https://i.ibb.co/cxDSnQx/2.png",
-    tag: ["All", "MEAN Stack"],
+    tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/shorifuddin2/RoktoBondu/",
     previewUrl: "https://incandescent-choux-787455.netlify.app/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "Red Onion",
     description: "React.js, Tailwind Css, Desy UI,Firebase, Node.js, Express.js Mongodb",
     image: "https://i.ibb.co/SX48Tys/3.png",
-    tag: ["All", "MEAN Stack"],
+    tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/shorifuddin2/onion",
     previewUrl: "https://red-onion-abbee.web.app/",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "Open Library",
     description: "React.js, Tailwind Css, Desy UI,Natlify, Node.js, Express.js Mongodb",
     image: "https://i.ibb.co/pvk7jV1/4.png",
-    tag: ["All", "MEAN Stack"],
+    tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/shorifuddin2/livery-project",
     previewUrl: "https://mellow-axolotl-fd8a16.netlify.app/",
   },
@@ -46,7 +46,7 @@ const projectsData = [
     title: "ViVo Phone Shop Project",
     description: "React.js, Tailwind Css, Desy UI,Firebase, Node.js, Express.js Mongodb",
     image: "https://i.ibb.co/yYv3SNm/5.png",
-    tag: ["All", "MEAN Stack"],
+    tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/shorifuddin2/smartphone-shop-cline/",
     previewUrl: "https://smartphone-show-room-88deb.web.app/",
   },
@@ -55,7 +55,7 @@ const projectsData = [
     title: "Food Ordering Application",
     description: "React.js, Tailwind Css, Desy UI,Firebase, Node.js, Express.js Mongodb",
     image: "https://i.ibb.co/NrP5tJb/6.png",
-    tag: ["All", "MEAN Stack"],
+    tag: ["All", "Full Stack"],
     gitUrl: "/",
     previewUrl: "https://online-restaurant1.web.app/",
   },
@@ -73,13 +73,13 @@ const projectsData = [
     title: "Deshbood App",
     description: "React.js, Tailwind css, Desy Ui, Node.js, Experss.js,Mongodb,Firebase",
     image: "https://i.ibb.co/6XXYd3q/8.png",
-    tag: ["All", "MEAN Stack"],
+    tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/shorifuddin2/Student-data-Collection",
     previewUrl: "https://student-app-a5b1d.web.app/",
   },
   {
     id: 9,
-    title: "Protfolio Preject",
+    title: "Portfolio Preject",
     description: "HTML5, Row Css3",
     image: "https://i.ibb.co/DWNjwFb/9.png",
     tag: ["All", "Front-End"],
@@ -91,7 +91,7 @@ const projectsData = [
     title: "Our Crouses",
     description: "React.js Tailwind Css, Firebase",
     image: "https://i.ibb.co/BrjFHPX/10.png",
-    tag: ["All", "MEAN Stack"],
+    tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/shorifuddin2/Our-courses-website",
     previewUrl: "https://our-courses-132f5.web.app/",
   },
@@ -109,7 +109,7 @@ const projectsData = [
     title: "Discovres Research",
     description: "Bootstrap 5, React.js,Natlify",
     image: "https://i.ibb.co/9st6GCz/11.png",
-    tag: ["All", "MEAN Stack"],
+    tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/shorifuddin2/Research-Gate",
     previewUrl: "https://graceful-sopapillas-5f36aa.netlify.app/",
   },
@@ -142,7 +142,7 @@ const projectsData = [
   },
   {
     id: 15,
-    title: "Protfolio Project",
+    title: "Portfolio Project",
     description: "React.js, React Bootstrap,Firebase, React Animation",
     image: "https://i.ibb.co/8B8KtSB/15.png",
     tag: ["All", "Front-End"],
@@ -187,7 +187,7 @@ const projectsData = [
   // },
   {
     id: 20,
-    title: "Protfolio Project",
+    title: "Portfolio Project",
     description: "HTML 5, Css-3",
     image: "https://i.ibb.co/hWwnvq8/20.png",
     tag: ["All", "Front-End"],
@@ -196,7 +196,7 @@ const projectsData = [
   },
   // {
   //   id: 21,
-  //   title: "Protfolio Project",
+  //   title: "Portfolio Project",
   //   description: "HTML-5, Css-3",
   //   image: "https://i.ibb.co/71VbvhL/21.png",
   //   tag: ["All", "Front-End"],
@@ -272,7 +272,7 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="MEAN Stack"
+          name="Full Stack"
           isSelected={tag === "Web"}
         />
         <ProjectTag
